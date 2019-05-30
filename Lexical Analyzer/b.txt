@@ -1,0 +1,23 @@
+int size.
+int sum
+move -++5.0 to size.
+
+
+{salads} {sadas}{asdas
+asda } 
+
+:-)
+
+loop size times
+[ out size, newline.
+loop size times
+  [ add size to sum] 
+]
+out newline, "Sum:", sum.
+
+move -++5.0 to size.
+
+
+
+
+
