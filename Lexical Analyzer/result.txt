@@ -1,0 +1,56 @@
+keyword int
+identifier size
+endoflinecharacter
+keyword int
+identifier sum
+endoflinecharacter
+keyword out
+keyword newline
+commaoperand
+stringconst "Sum:"
+commaoperand
+identifier sum
+commaoperand
+keyword newline
+commaoperand
+identifier asides
+commaoperand
+identifier denim
+endoflinecharacter
+keyword sub
+identifier size
+keyword from
+identifier sum
+endoflinecharacter
+keyword add
+identifier size
+keyword to
+identifier sum
+endoflinecharacter
+keyword move
+intconst 5
+keyword to
+identifier size
+endoflinecharacter
+keyword loop
+identifier size
+keyword times
+openparanthesis
+keyword out
+identifier size
+commaoperand
+keyword newline
+endoflinecharacter
+keyword add
+identifier size
+keyword to
+identifier sum
+endoflinecharacter
+closeparanthesis
+keyword out
+keyword newline
+commaoperand
+stringconst "Sum:"
+commaoperand
+identifier sum
+endoflinecharacter

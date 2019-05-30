@@ -1,53 +1,4 @@
-keyword (int)
-identifier (size)
-end of line (.)
-keyword (int)
-identifier (sum)
-2. satirda end of line (.) komutu bulunamadi.
-keyword (move)
-eksi_op (-)
-3. satirda hata. '-' operatorunden sonra sayi disinda bir sey gelemez.
-3. satirda hata. '+' operatoru kullanilamaz.
-3. satirda Hata bulundu. Bu lexical analyzer boyle bir sayiyi desteklememektedir. (5.0)
-keyword (to)
-identifier (size)
-end of line (.)
-9. satirda gecersiz bir karakter!!
-eksi_op (-)
-9. satirda hata. '-' operatorunden sonra sayi disinda bir sey gelemez.
-9. satirda gecersiz bir karakter!!
-keyword (loop)
-identifier (size)
-keyword (times)
-open_square_bracket ([)
-keyword (out)
-identifier (size)
-comma
-keyword (newline)
-end of line (.)
-keyword (loop)
-identifier (size)
-keyword (times)
-open_square_bracket ([)
-keyword (add)
-identifier (size)
-keyword (to)
-identifier (sum)
-14. satirda end of line (.) komutu bulunamadi
-close_square_bracket (])
-close_square_bracket (])
-keyword (out)
-keyword (newline)
-comma
-stringConstant "Sum:"
-comma
-identifier (sum)
-end of line (.)
-keyword (move)
-eksi_op (-)
-18. satirda hata. '-' operatorunden sonra sayi disinda bir sey gelemez.
-18. satirda hata. '+' operatoru kullanilamaz.
-18. satirda Hata bulundu. Bu lexical analyzer boyle bir sayiyi desteklememektedir. (5.0)
-keyword (to)
-identifier (size)
-end of line (.)
+int size.int sum.
+out newline, "Sum:", sum, newline, asides, denim.
+sub size from sum.
+add size to sum.move 5 to size.loop size times[ out size, newline.  add size to sum.]out newline, "Sum:", sum.
